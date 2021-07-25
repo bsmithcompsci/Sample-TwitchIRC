@@ -6,7 +6,6 @@ include(cmake/thirdparty.cmake)
 add_executable( TwitchIRC-Example
     src/main.cpp
 )
-set_target_properties( TwitchIRC-Example PROPERTIES FOLDER "Samples" )
 
 # Link the TwitchIRC SDK to our sample project.
 target_link_libraries( TwitchIRC-Example TwitchIRCSDK )
