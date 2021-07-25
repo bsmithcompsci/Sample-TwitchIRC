@@ -1,0 +1,6 @@
+[submodule "ThirdParty/asio"]
+	path = ThirdParty/asio
+	url = https://github.com/chriskohlhoff/asio
+[submodule "ThirdParty/TwitchIRCSDK"]
+	path = ThirdParty/TwitchIRCSDK
+	url = https://github.com/bsmithcompsci/TwitchIRCSDK
